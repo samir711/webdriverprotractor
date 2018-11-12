@@ -36,6 +36,7 @@ describe("Test Automation of a Banking Application", function(){
         //  element(by.model("custId")).element(by.css("[value='2']")).click();
           element(by.model("custId")).$("[value='2']").click();
           element(by.buttonText("Login")).click();
+          
         //   element(by.binding("user")).getText().then((text)=>{
         //    console.log(text);
         //   });

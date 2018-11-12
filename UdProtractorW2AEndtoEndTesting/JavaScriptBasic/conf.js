@@ -3,19 +3,15 @@ exports.config = {
     // specs: ['todo-spec.js.js'],
     directConnect: true,
     framework: "jasmine",
-    specs: ['Banking.js'],
-    params: {
-      url: 'http://www.way2automation.com/angularjs-protractor/banking/#/login'
-
-    },
-
-   getPageTimeout: 120000,
+    specs: ['protpromises.js'],
+    getPageTimeout: 120000,
+    
+    //specs: ['todo-spec.js'],
 
     capabilities: {
-      browserName: 'chrome',
+      browserName: 'firefox',
 
     },
-
     allScriptsTimeout: 50000,
     
     onPrepare: function() {
@@ -23,9 +19,7 @@ exports.config = {
     },
 
     jasmineNodeOpts:{
-      defaultTimeoutInterval: 50000,
-      showColors: true
-
+      defaultTimeoutInterval: 50000
     }
 
   }

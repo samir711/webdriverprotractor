@@ -35,3 +35,9 @@ https://stackoverflow.com/questions/20050199/how-to-run-protractor
   https://stackoverflow.com/questions/44816997/locally-installed-webdriver-managerthrough-protractor-update-issue-e-downloa
 
 npm audit fix --force
+
+Jasmine -
+
+Suite command - protractor conf.js --suite=smoke
+
+TestSuites>protractor conf.js --suite=smoke,regression

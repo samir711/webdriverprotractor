@@ -1,0 +1,15 @@
+{
+    "folders": [
+        {
+            "path": "UdProtractorW2AEndtoEndTesting"
+        }
+    ],
+    "settings": {
+
+        "liveServer.settings.CustomBrowser": "chrome",
+        "liveServer.settings.multiRootWorkspaceName": "Javascript Intermediate level 2_All about functions",
+        "files.autoSave": "afterDelay",
+        "files.autoSaveDelay": 2000
+
+    }
+}

@@ -1,0 +1,35 @@
+npm i -save protractor
+
+protractor --version
+
+for running the protractor local folder update webdriver locally - node node_modules\\protractor\\bin\\webdriver-manager update
+
+for running the protractor from the global folder - webdriver-manager update
+
+webdriver-manager start
+
+http://127.0.0.1:4444/wd/hub/static/resource/hub.html
+
+create an empty file - cd . > spec.js
+
+for running the protractor local folder update webdriver locally - node node_modules\\protractor\\bin\\webdriver-manager update
+
+for running the conf.js from the local folder - node node_modules\protractor\bin\protractor conf.js
+
+
+https://stackoverflow.com/questions/20050199/how-to-run-protractor
+
+
+"scripts": {
+    "postinstall": "node node_modules/protractor/bin/webdriver-manager update",
+    "pretest": "npm run tsc",
+    "test": "npm run eslint && npm run protractor",
+    "eslint": "node node_modules/eslint/bin/eslint.js '*.js' 'test/**/*.js' 'test/**/*.ts'",
+    "protractor": "node node_modules/protractor/bin/protractor",
+    "start": "node node_modules/protractor/bin/webdriver-manager start",
+    "tsc": "node node_modules/typescript/bin/tsc"
+  }
+
+  npm test conf.js
+
+  https://stackoverflow.com/questions/44816997/locally-installed-webdriver-managerthrough-protractor-update-issue-e-downloa

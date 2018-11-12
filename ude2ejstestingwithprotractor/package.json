@@ -1,0 +1,20 @@
+{
+  "name": "ude2ejstestingwithprotractor",
+  "version": "1.0.0",
+  "description": "End-to-End Testing with Protractor",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node node_modules/protractor/bin/webdriver-manager update",
+    "test": "npm run protractor",
+    "eslint": "node node_modules/eslint/bin/eslint.js '*.js' 'test/**/*.js' 'test/**/*.ts'",
+    "protractor": "node node_modules/protractor/bin/protractor",
+    "start": "node node_modules/protractor/bin/webdriver-manager start",
+    "tsc": "node node_modules/typescript/bin/tsc"
+  },
+  "author": "Samir Arora",
+  "license": "ISC",
+  "dependencies": {
+    "protractor": "^5.4.1"
+  }
+
+}

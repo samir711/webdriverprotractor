@@ -3,7 +3,7 @@ exports.config = {
     // specs: ['todo-spec.js.js'],
     directConnect: true,
     framework: "jasmine",
-    specs: ['LocatorByBinding.js'],
+    specs: ['LocatoryByRepeater.js'],
     getPageTimeout: 120000,
     
     //specs: ['todo-spec.js'],

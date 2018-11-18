@@ -9,12 +9,20 @@
 	},
 	"devDependencies": {
 		"astrolabe": "0.3.6",
-		"exceljs": "^1.6.3",
+		"exceljs": "1.6.3",
 		"jasmine-allure-reporter": "^1.0.2",
 		"jasmine-reporters": "2.0.0",
 		"protractor": "^5.4.1",
 		"selenium-webdriver": "^3.6.0",
 		"winston": "1.0.1"
+	},
+	"scripts": {
+		"postinstall": "node node_modules/protractor/bin/webdriver-manager update",
+		"test": "npm run protractor",
+		"eslint": "node node_modules/eslint/bin/eslint.js '*.js' 'test/**/*.js' 'test/**/*.ts'",
+		"protractor": "node node_modules/protractor/bin/protractor",
+		"start": "node node_modules/protractor/bin/webdriver-manager start",
+		"tsc": "node node_modules/typescript/bin/tsc"
 	},
 	"dependencies": {
 		"path": "^0.12.7",

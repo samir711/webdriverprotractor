@@ -1,4 +1,4 @@
-﻿var winston = require('winston');
+﻿gitvar winston = require('winston');
 
 
 winston.remove(winston.transports.Console);
